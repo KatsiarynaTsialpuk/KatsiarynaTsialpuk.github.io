@@ -187,4 +187,39 @@ h4 {
     margin: 0;
 }
 
+footer {
+	background: #f7f7f7;
+	padding-bottom: 0;
+	text-align: center;
+}
+.social {
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+	list-style-type: none;
+}
+.social li {
+  float: left;
+  display: block;
+  margin-right: 41px;
+
+}
+.social a {
+	color: #000;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+
+}
+
+
+footer.second {
+	background-color: #A2A2A2;
+	max-height: 55px;
+	text-align: center;
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
 
