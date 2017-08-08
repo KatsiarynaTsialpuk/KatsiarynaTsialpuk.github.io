@@ -1,0 +1,522 @@
+	@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
+	@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600i,700');
+	* {
+		padding: 0;
+		margin: 0;
+		border: 0;
+		-webkit-font-smoothing: antialiased;
+		-webkit-overflow-scrolling: touch;
+	}
+
+	body {
+		background: #fff;
+		margin: 0 auto;
+		font-size: 16px;
+		overflow-x: hidden;
+		position: relative;
+		min-width: 320px;
+	}
+
+	a {
+		color: #45484c;
+		text-decoration: none;
+		font-weight: bold;
+	}
+
+	img {
+		display: block;
+		margin: 0 auto;
+		max-width: 100%;
+		height: auto;
+		width: auto;
+		
+	}
+	/* Start Wrapper */
+	#wrapper {
+		max-width: 1920px;
+		margin: 0 auto;
+	}
+
+
+	header {
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+	}
+
+	#logo {
+		margin: 20px;
+		float: left;
+		max-width: 146px;
+		max-height: 41px;
+		width: 50%;
+		height: 50%;
+		background: url(../img/logo.png) no-repeat center;
+		position:absolute;
+		margin-left:50px;
+
+	}
+	/* Start Nav */
+	nav {
+		float: right;
+		padding: 30px 0px 30px 0px;
+	}
+
+	#menu-icon {
+		display: hidden;
+		width: 36px;
+		height: 21px;
+		background: url(../img/menu-sm.svg) center;
+	}
+
+	ul {
+		list-style: none;
+	}
+
+	nav ul li {
+		font-family: 'Lato', sans-serif;
+		font-size: 14px;
+		display: inline-block;
+		float: left;
+		padding-right: 50px;
+		text-transform: uppercase;
+	}
+
+	nav ul li a {
+		color: #45484c;
+	}
+
+	.active-link {
+		color: #7fa0d6;
+	}
+	nav ul li a:hover {
+		color: #7fa0d6;
+		text-decoration: none;
+		padding: 6px 0;
+	}
+
+	/* End Nav */
+	/* Start New Home Tech Section */
+	.intro {
+		min-height: 700px;
+		height: 100vh;
+		width: 100%;
+		margin: auto;
+		background-image: url(../img/desktop-1.jpg);
+		display: table;
+		-webkit-background-size: cover;
+		background-size: cover;
+		background-position: center;
+		margin-top: 20px;
+		position: relative;
+
+	}
+
+	.intro .inner {
+		display: table-cell;
+		vertical-align: middle;
+		width: 100%;
+		max-width: none;
+	}
+
+	.content {
+		max-width: 1920px;
+		margin: 0 auto;
+		text-align: left;
+		padding-left: 95px;
+	}
+
+	.content h1 {
+		font-family: 'Open Sans', sans-serif;
+		color: #fff;
+		text-shadow: 2px 2px 120px #000;
+		font-size: 50px;
+		font-weight: bold;
+
+	}
+
+	.content span {
+		font-family: 'Open Sans', sans-serif;
+		color: #fff;
+		text-shadow: 2px 2px 120px #000;
+		font-size: 50px;
+		font-style: italic;
+
+	}
+
+	.content .btn {
+		margin-top: 50px;
+		border-radius: 2px;
+		font-family: 'Lato', sans-serif;
+		color: #fff;
+		font-size: 18px;
+		padding: 10px 40px;
+		text-transform: uppercase;
+		font-weight: bold;
+		border: solid #fff 3px;
+		text-shadow: 2px 2px 120px #000;
+
+	}
+
+	.content .btn:hover {
+		color: #7fa0d6;
+		border: solid #7fa0d6 3px;
+	}
+	/* End New Home Tech Section */
+	/*Start Personalized Systems*/
+	.personalized h3 {
+		text-align: left;
+		font-size: 250%;
+		font-family: 'Open Sans', sans-serif;
+		color: #7fa0d6;
+		padding-bottom: 70px;
+		line-height: 35px;
+		margin-top: 100px;
+	}
+
+	#systems {
+		text-align: left;
+		font-family: 'Lato', sans-serif;
+		font-size: 100%;
+		line-height: 30px;
+		color: #26394d;
+		opacity: 0.6;
+		margin-bottom: 50px;
+	}
+
+	table {
+		text-align: center;
+		margin-top: 110px;
+		margin-bottom: 20px;
+
+	}
+
+	td {
+		width: 120px;
+	}
+
+	table img {
+		display: table;
+		max-width: 100%;
+		height: auto;
+	}
+
+	td p {
+		font-family: 'Lato', sans-serif;
+		font-size: 80%;
+		text-transform: uppercase;
+		font-weight: bold;
+		margin-top: 15px;
+		color: color: #26394d;
+		opacity: 0.4;
+	}
+	/* End Personalized Systems */
+	/* Start Slider */
+	#slider_container .item img{
+		margin-top: 70px;
+		display: block;
+		float: left;
+		width: 96%;
+		height: auto;
+		-webkit-box-shadow: 2px 2px  120% #DCDCDC;
+		box-shadow: 2px 2px  120%  #DCDCDC;
+		margin-right: 5px;
+		cursor: pointer;
+	}
+	/* End Slider */
+	/* Start How it works */
+	.tellus img {
+		text-align: center;
+		margin-top: 105px;
+		width: 60%;
+	}
+
+	.refine {
+		margin-top: 80px;
+	}
+
+	.refine img {
+		text-align: center;
+		width: 40%;
+		margin-top: 30px;
+	}
+
+	.build {
+		margin-top: 80px;
+	}
+
+	.build img {
+		text-align: center;
+		width: 50%;
+		margin-top: 30px;
+	}
+
+	.how_it_works {
+		margin-top: 0;
+		margin-bottom: 100px;
+	}
+
+	.how_it_works h4 {
+		font-family: 'Lato', sans-serif;
+		color: #45484c;
+		text-align: left;
+		font-size: 80%;
+		text-transform: uppercase;
+		padding-bottom: 10px;
+		font-weight: 800;
+	}
+
+	.tellus h3 {
+		text-align: left;
+		font-size: 250%;
+		font-family: 'Open Sans', sans-serif;
+		color: #7fa0d6;
+		padding-bottom: 70px;
+		padding-top: 70px;
+		line-height: 35px;
+	}
+	/* End How it works */
+	/* Start Slider Reviews */
+	.s-review {
+		background-color: #fbfbfb;
+
+
+	}
+
+	.s-review h3 {
+		text-align: center;
+		font-size: 250%;
+		font-family: 'Open Sans', sans-serif;
+		color: #7fa0d6;
+		padding-top: 70px;
+		padding-bottom: 40px;
+		line-height: 2;
+	}
+	
+	.review-header {
+		float: left;
+		text-align: center;
+	}
+
+	.review-header img {
+		object-fit: cover;
+		border-radius: 50%;
+	}
+
+	.review-header h4 {
+		color: #45484c;
+		font-family: 'Lato', sans-serif;
+		font-weight: 700;
+		text-transform: uppercase;
+		font-size: 80%;
+		padding-top: 20px;		
+	}
+
+	.review-text p {
+		font-style: italic;
+		margin-right: 50px;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 100%;
+		font-size: 100%;
+		line-height: 40px;
+		color: #292929;
+		opacity: 0.5;
+
+	}
+	/* End Slider Reviews */
+	/* Start Get Home Tech */
+	.intro-2 {
+		max-width: 1920px;
+		height: 100vh;
+		width: 100%;
+		margin: auto;
+		position: relative;
+		background-image: url(../img/desktop-3.png);
+		display: table;
+		-webkit-background-size: cover;
+		background-size: cover;
+		background-position: center;
+
+	}
+
+	.intro-2 .inner {
+		display: table-cell;
+		vertical-align: middle;
+		width: 100%;
+		max-width: none;
+	}
+
+	.content-2 {
+		max-width: 1920px;
+		margin: 0 auto;
+		text-align: right;
+	}
+
+	.content-2 h1 {
+		font-family: 'Open Sans', sans-serif;
+		color: #fff;
+		font-size: 30px;
+		font-weight: bold;
+		padding-left: 100px;
+		text-align: left;
+		position: absolute;
+		margin-top: 450px;
+
+	}
+
+	.content-2 .btn {
+		margin-right: 990px;
+		margin-top: 457px;
+		border-radius: 2px;
+		font-family: 'Lato', sans-serif;
+		color: #fff;
+		font-size: 18px;
+		padding: 10px 60px;
+		text-transform: uppercase;
+		font-weight: bold;
+		border: solid #fff 3px;
+
+	}
+
+	.content-2 .btn:hover {
+		color: #7fa0d6;
+		border: solid #7fa0d6 3px;
+	}
+	/* End Get Home Tech */
+
+
+	/* Pricing Section */
+	.pricing {
+		padding: 50px 0 80px;
+		text-align: center;
+		background-color: #fbfbfb;
+
+	}
+
+	.pricing h3 {
+		text-align: center;
+		font-size: 250%;
+		font-family: 'Open Sans', sans-serif;
+		color: #7fa0d6;
+		padding-bottom: 20px;
+		line-height: 2;
+	}
+
+	#price {
+		font-family: 'Lato', sans-serif;
+		font-size: 110%;
+		line-height: 30px;
+		color: #26394d;
+		opacity: 0.6;
+		margin-bottom: 70px;
+	}
+
+	.pricing .freepackage {
+		padding: 30px;
+		padding-bottom: 75px;
+		border: 1px;
+		background-color: #fff;
+		border-radius: 3px;
+		margin-top: 20px;
+		box-shadow: 5px 5px  50px rgba(0,0,0,.2);
+	}
+
+	.freepackage h4 {
+		font-family: 'Lato', sans-serif;
+		font-size: 100%;
+		text-transform: uppercase;
+		color: #45484c;
+		font-weight: bold;
+		margin-bottom: 50px;
+	}
+
+	.freepackage i {
+		float: left;
+		color: #7090c2;
+		margin-top: 4px;
+	}
+
+	.freepackage p {
+		font-family: 'Lato', sans-serif;
+		font-size: 95%;
+		line-height: 20px;
+		color: #26394d;
+		opacity: 0.6;
+		margin-bottom: 30px;
+		text-align: left;
+		margin-left: 30px;
+	}
+
+	.freepackage hr {
+		border: 1px solid #e5e8eb;
+		margin-top: 60px;
+	}
+
+	.freepackage .cost {
+		font-family: 'Open Sans', sans-serif;
+		font-size: 200%;
+		color: #7090c2;
+		font-weight: bold;
+		float: left;
+		padding: 0;
+		margin: 0;
+		height: 0;
+	}
+
+	.freepackage .cost span {
+		font-size: 70%;
+		top: 0;
+	}
+
+	.freepackage .btn {
+		border-radius: 5px;
+		font-family: 'Lato', sans-serif;
+		color: #7090c2;
+		font-size: 12px;
+		padding: 4px 15px;
+		text-transform: uppercase;
+		font-weight: bold;
+		border: solid #7090c2 2px;
+		float: right;
+		margin-top: 15px;
+	}
+
+	.freepackage .btn:hover {
+		color: #7fa0d6;
+	}
+
+	#months {
+		margin-right: 100px;
+		margin-top: 0;
+		margin-left: 0;
+		padding: 0;
+		font-style: italic;
+		float: left;
+	}
+	/* End Pricing */
+	/* Start Footer */
+	#footer-inner #logo {
+		margin-right: 0;
+		margin-left: 0;
+	}
+	/* Style for FF */
+	#footer-inner #logo, x:-moz-any-link {
+		margin-left: -175px
+	}
+
+	#copyright {
+		font-family: 'Lato', sans-serif;
+		font-size: 12px;
+		color: #26394d;
+		opacity: 0.4;
+		text-transform: uppercase;
+		float: left;
+		font-weight: bold;
+		bottom: 0;
+		margin-top: 80px;
+		margin-bottom: 30px;
+	}
+	/* End Footer */
+	/* End Wrapper */
+	
